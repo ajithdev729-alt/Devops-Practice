@@ -18,3 +18,4 @@ jobs:
                 distribution: 'corretto'
             - name: Build and test with Maven
               run: mvn clean test
+              working-directory: ./demo-api
